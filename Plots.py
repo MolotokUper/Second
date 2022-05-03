@@ -16,13 +16,13 @@ def led_indicator(percent):
     GPIO.output(leds, volume)
 
 
-# Вкл/выкл напряжение на тройка-модуле (on - вкл, off - выкл)
+"""# Вкл/выкл напряжение на тройка-модуле (on - вкл, off - выкл)
 def troyka_reg(cond):
     if cond == 'on':
         GPIO.output(troyka, 1)
     elif cond == 'off':
         GPIO.output(troyka, 0)
-
+"""
 
 # Аналогово-цифровой преобразователь, возвращает текущее напряжение на выходе тройка-модуля
 def analog_to_digital_conventer():
